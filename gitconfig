@@ -1,0 +1,8 @@
+[user]
+	name = Kirill Korolyov
+	email = kirill.korolyov@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+[color]
+	ui = true
