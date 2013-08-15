@@ -18,5 +18,5 @@ for name in `ls home`; do
   fi
 
   ln -s "$src" "$target"
-  echo "Symlinked $src to $target"
+  echo "Symlinked $target to $src"
 done

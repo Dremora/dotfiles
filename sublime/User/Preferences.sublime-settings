@@ -1,4 +1,6 @@
 {
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - Default/iPlastic.tmTheme",
 	"default_line_ending": "unix",
 	"fallback_encoding": "Cyrillic (Windows 1251)",
@@ -15,5 +17,6 @@
 	[
 		80,
 		120
-	]
+	],
+	"show_tab_close_buttons": false
 }

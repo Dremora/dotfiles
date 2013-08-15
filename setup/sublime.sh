@@ -5,7 +5,7 @@ echo "Installing Sublime Text preferences..."
 if [ `uname` == 'Darwin' ]; then
   DIR=~/Library/Application\ Support/Sublime\ Text\ 3/Packages
 elif [ `uname` == 'Linux' ]; then
-  DIR=~/.config/sublime-text/Packages
+  DIR=~/.config/sublime-text-3/Packages
 else
   DIR=~/AppData/Roaming/Sublime\ Text\ 3/Packages
 fi
@@ -21,4 +21,4 @@ elif [ -a "$target" ]; then
 fi
 
 ln -s "$src" "$target"
-echo "Symlinked $src to $target"
+echo "Symlinked $target to $src"
