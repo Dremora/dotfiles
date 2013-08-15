@@ -14,7 +14,7 @@ fi
 
 # MacPorts
 if [ -d "/opt/local" ]; then
-  export PATH=/opt/local/lib/postgresql92/bin::/opt/local/libexec/perl5.12/sitebin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin$PATH
+  export PATH=/opt/local/lib/postgresql92/bin::/opt/local/libexec/perl5.12/sitebin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:$PATH
 fi
 
 # PostgreSQL
