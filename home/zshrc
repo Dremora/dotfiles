@@ -26,3 +26,11 @@ fi
 if [ -d "$HOME/Code/play-2.1.0" ]; then
   export PATH=$PATH:$HOME/Code/play-2.1.0
 fi
+
+if [ `uname` '==' "Darwin" ]; then
+  source ~/.osxrc
+elif [ `uname` == 'Linux' ]; then
+  source ~/.linux
+fi
+
+export EDITOR='subl -w'
