@@ -34,7 +34,7 @@ fi
 
 if [ `uname` '==' "Darwin" ]; then
   source ~/.osxrc
-elif [ `uname` == 'Linux' ]; then
+elif [ `uname` '==' 'Linux' ]; then
   source ~/.linux
 fi
 
