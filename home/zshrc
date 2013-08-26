@@ -37,5 +37,3 @@ if [ `uname` '==' "Darwin" ]; then
 elif [ `uname` '==' 'Linux' ]; then
   source ~/.linux
 fi
-
-export EDITOR='subl -w'
